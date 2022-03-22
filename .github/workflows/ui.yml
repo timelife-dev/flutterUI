@@ -45,5 +45,5 @@ jobs:
         
         cd build/web
         pwd
-        aws s3 cp . s3://timelife.dev --recursive
-        aws s3 cp . s3://www.timelife.dev --recursive
+        aws s3 cp . s3://app.dev.timelife.dev --recursive
+        aws s3 cp . s3://www.app.dev.timelife.dev --recursive
